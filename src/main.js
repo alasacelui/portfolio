@@ -4,10 +4,9 @@ import router from './router'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import Typewriter from 'vue-typewriter'
 
-
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
-Vue.use(Typewriter);
+Vue.use(Typewriter)
 
 Vue.config.productionTip = false
 
